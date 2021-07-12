@@ -1,0 +1,5 @@
+<launch>
+  <rosparam command="load" file="$(find rrt)/rrt_params.yaml"/>
+  <node pkg="rrt" name="rrt" type="rrt.py" output="screen"> 
+  </node>
+</launch>

@@ -1,0 +1,33 @@
+# Topics that RRT listens to
+# TODO: add your own
+# TODO: change this to the pose topic published particle filter
+pose_topic: "/pf/pose/odom"
+scan_topic: "/scan"
+drive_topic: "/drive"
+Waypoint_CSV_File_Path: "/home/zach/catkin_ws/src/lab7/waypoints/centerline_300main.csv"
+Occupancy_Grid_File_Path: "/home/zach/catkin_ws/src/lab7/maps/300main_clean2.pgm"
+
+car_width: 0.3
+car_length: 0.32
+
+map_scalar: 0.05
+map_offset_x: -21.6
+map_offset_y: -14.487177
+
+LOOKAHEAD: 1.25
+goal_lookahead: 2.5
+goal_threshold: 17
+node_length: 10
+bubble_extra_bound: 1.5 #0.70710678118
+
+neighborhood_radius: 30
+
+max_steer_angle: 0.4814
+max_speed: 7
+min_speed: 4
+
+# Topics that RRT publishes to
+# TODO: add your own
+# visualization
+
+# TODO: add Parameters for RRT
